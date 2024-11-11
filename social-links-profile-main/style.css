@@ -88,7 +88,7 @@ body {
 }
 
 .c-card__c-list-items {
-  width: 100%;
+  width: 95%;
 }
 
 .c-card__link {
@@ -123,7 +123,6 @@ body {
 
 .c-attribution__link {
   color: var(--color-green);
-  text-decoration: none;
 }
 
 /* media query */
