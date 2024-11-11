@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Inter";
+  src: url(./assets/fonts/Inter-VariableFont_slntwght.ttf) format("truetype");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-green: hsl(75, 94%, 57%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-grey-700: hsl(0, 0%, 20%);
+  --color-grey-800: hsl(0, 0%, 12%);
+  --color-grey-900: hsl(0, 0%, 8%);
+  --font-family-inter: "Inter", serif;
+  --font-side-paragraph: 0.875rem;
+}
+
+/* macros */
+.l-flex--column--center--y {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* main css */
+
+body {
+  overflow: hidden;
+}
+
+.l-main {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--color-grey-900);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-card {
+  width: 88%;
+  background-color: var(--color-grey-800);
+  font-family: var(--font-family-inter);
+  padding: 1rem;
+  border-radius: 0.7rem;
+}
+
+.c-card__image {
+  height: 6rem;
+  margin: 0.5rem;
+  border-radius: 50%;
+}
+
+.c-card__caption {
+  margin: 1rem 0;
+}
+
+.c-card__name {
+  color: var(--color-white);
+  font-size: 1.6rem;
+}
+
+.c-card__location {
+  color: var(--color-green);
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0.7rem;
+}
+
+.c-card__motto {
+  color: var(--color-white);
+  font-size: var(--font-side-paragraph);
+}
+
+.c-card__l-links {
+  width: 100%;
+  margin: 1rem 0 0 0;
+}
+
+.c-card__c-list {
+  list-style: none;
+}
+
+.c-card__c-list-items {
+  width: 100%;
+}
+
+.c-card__link {
+  background-color: var(--color-grey-700);
+  color: var(--color-white);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.9rem;
+  margin: 0.55rem;
+  display: block;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.2s background ease-in-out;
+}
+
+.c-card__link:hover,
+.c-card__link:active {
+  background-color: var(--color-green);
+  color: var(--color-grey-900);
+}
+
+.c-attribution {
+  position: sticky;
+  bottom: 1rem;
+  color: var(--color-white);
+  font-family: var(--font-family-inter);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.c-attribution__link {
+  color: var(--color-green);
+  text-decoration: none;
+}
+
+/* media query */
+@media screen and (min-width: 430px) {
+  .c-card {
+    width: 24rem;
+  }
+}
