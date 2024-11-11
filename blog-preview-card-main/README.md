@@ -26,7 +26,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/)
+- [Solution URL](https://www.frontendmentor.io/solutions/blog-preview-card-solution-nemGBX7sN5)
 - [Live Site URL](https://frontendmentor-projects-tawny.vercel.app/blog-preview-card-main/)
 
 ## My process
