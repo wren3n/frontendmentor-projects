@@ -24,7 +24,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ### Links
 
 - [Solution URL](https://your-solution-url.com)
-- [Live site URL](https://frontendmentor-projects-tawny.vercel.app/social-links-profile-main)
+- [Live site URL](https://frontendmentor-projects-tawny.vercel.app/social-links-profile-main/)
 
 ## My process
 
